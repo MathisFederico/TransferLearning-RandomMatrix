@@ -53,7 +53,7 @@ Although alined features are beneficial for transfer learning, we can still see 
 
 1. Performences on the target is way less that for the source set
 
-2. We need an order of magnitude more of sources elements to have the same influence on the target set than of the source set
+2. We need one and a half order of magnitude more of sources elements to have the same influence on the target set than of the source set
 
 Uncertainty is Type A with student enlargment. You can see details in evaluate.plot_evaluation().
 
