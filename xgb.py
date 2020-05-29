@@ -1,5 +1,5 @@
 from keras.datasets import mnist
-from sklearn.svm import LinearSVC
+from xgboost import XGBClassifier
 from evaluate import evaluate_model
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -11,8 +11,8 @@ dataset = (x_train, y_train), (x_test, y_test)
 source_labels = [3, 4]
 target_labels = [8, 9]
 
-model = LinearSVC(loss='hinge', max_iter=2000)
-model_name = 'SVM'
+model = XGBClassifier()
+model_name = 'XGB'
 
-n_trials = 5
-evaluate_model(model, n_trials, dataset, source_labels, target_labels, n_target=4, n_source_max=2000, points_per_trial=20, model_name='SVM', save_pickles=False)
+n_trials = 50
+evaluate_model(model, n_trials, dataset, source_labels, target_labels, n_target=4, n_source_max=2000, points_per_trial=20, model_name=model_name, save_pickles=False)
