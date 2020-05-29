@@ -37,7 +37,13 @@ The framework is easy to use :
 
 This will save images like so :
 
-.. image:: images/MNIST/SVM/Accuracy (50 trials) with align target.png
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20align%20target.png
+    :alt: Accuracy (50 trials) with align target
+    :width: 700
+    :align: center
 
-.. image:: images/MNIST/SVM/Accuracy (50 trials) with ortho target.png
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+    :alt: Accuracy (50 trials) with orthogonal target
+    :width: 700
+    :align: center
 
