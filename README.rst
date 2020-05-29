@@ -50,7 +50,9 @@ This will save images like so :
 
 Here we can see that orthogonal (when transfer classes are badly done) is critical for the learning scheme.
 Although alined features are beneficial for transfer learning, we can still see that:
+
 1. Performences on the target is way less that for the source set
+
 2. We need an order of magnitude more of sources elements to have the same influence on the target set than of the source set
 
 Uncertainty is Type A with student enlargment. You can see details in evaluate.plot_evaluation().
