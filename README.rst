@@ -1,9 +1,13 @@
-# TransferLearning-RandomMatrix
+TransferLearning-RandomMatrix
+=============================
 
 This repository reproduce results found in :
 
 R. Couillet, "A Random Matrix Analysis and Optimization Framework to Large Dimensional Transfer Learning"
 https://romaincouillet.hebfree.org/docs/conf/transfer_learning.pdf
+
+Usage
+-----
 
 The framework is easy to use :
 
@@ -39,6 +43,9 @@ The framework is easy to use :
                     model_name=model_name, dataset_name=dataset_name,
                     save_pickles=False)
 
+
+Results
+-------
 
 This will save images like so :
 
