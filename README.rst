@@ -42,15 +42,15 @@ The framework is easy to use :
 
 This will save images like so :
 
-|SVM_align| SVM |SVM_ortho|
+.. list-table:: 
 
-.. |SVM_align| image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/SVM/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
-   :alt: SVM Accuracy (50 trials) with align target
-   :width: 45%
+    * - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/SVM/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
+        :alt: SVM Accuracy (50 trials) with align target
+        :width: 45%
 
-.. |SVM_ortho| image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/SVM/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
-   :alt: SVM Accuracy (50 trials) with orthogonal target
-   :width: 45%
+    * - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/SVM/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+        :alt: SVM Accuracy (50 trials) with orthogonal target
+        :width: 45%
 
 Uncertainty is Type A with student enlargment. You can see details in evaluate.plot_evaluation().
 
