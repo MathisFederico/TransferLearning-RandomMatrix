@@ -43,13 +43,27 @@ The framework is easy to use :
 This will save images like so :
 
 .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20align%20target.png
-    :alt: Accuracy (50 trials) with align target
+    :alt: SVM Accuracy (50 trials) with align target
     :width: 700
     :align: center
 
 .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20ortho%20target.png
-    :alt: Accuracy (50 trials) with orthogonal target
+    :alt: SVM Accuracy (50 trials) with orthogonal target
     :width: 700
     :align: center
 
-Uncertainty is Type A with student enlargment
+Uncertainty is Type A with student enlargment. You can see details in :function:`evaluate.plot_evaluation`.
+
+Using xgboost we have similar results:
+
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20align%20target.png
+    :alt: XGB Accuracy (50 trials) with align target
+    :width: 700
+    :align: center
+
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MNIST/SVM/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+    :alt: XGB Accuracy (50 trials) with orthogonal target
+    :width: 700
+    :align: center
+
+
