@@ -53,26 +53,21 @@ Uncertainty is Type A with student enlargment. You can see details in evaluate.p
 
 Using a multilayer perceptron we have similar results:
 
-.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MLP/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
-    :alt: MLP Accuracy (50 trials) with align target
-    :width: 700
-    :align: center
+.. list-table:: 
 
-.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MLP/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
-    :alt: MLP Accuracy (50 trials) with orthogonal target
-    :width: 700
-    :align: center
+    * - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MLP/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
+
+      - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/MLP/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+
 
 Using xgboost we have similar results:
 
-.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/XGB/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
-    :alt: XGB Accuracy (50 trials) with align target
-    :width: 700
-    :align: center
+.. list-table:: 
 
-.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/XGB/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
-    :alt: XGB Accuracy (50 trials) with orthogonal target
-    :width: 700
-    :align: center
+    * - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/XGB/MNIST/Accuracy%20(50%20trials)%20with%20align%20target.png
+
+      - .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/master/images/XGB/MNIST/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+
+
 
 
