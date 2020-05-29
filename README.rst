@@ -54,6 +54,18 @@ This will save images like so :
 
 Uncertainty is Type A with student enlargment. You can see details in evaluate.plot_evaluation().
 
+Using a multilayer perceptron we have similar results:
+
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/e6f854b8646e33707e213034eda47f54112abb56/images/MNIST/XGB/Accuracy%20(50%20trials)%20with%20align%20target.png
+    :alt: MLP Accuracy (50 trials) with align target
+    :width: 700
+    :align: center
+
+.. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/e6f854b8646e33707e213034eda47f54112abb56/images/MNIST/XGB/Accuracy%20(50%20trials)%20with%20ortho%20target.png
+    :alt: MLP Accuracy (50 trials) with orthogonal target
+    :width: 700
+    :align: center
+
 Using xgboost we have similar results:
 
 .. image:: https://github.com/MathisFederico/TransferLearning-RandomMatrix/blob/e6f854b8646e33707e213034eda47f54112abb56/images/MNIST/XGB/Accuracy%20(50%20trials)%20with%20align%20target.png

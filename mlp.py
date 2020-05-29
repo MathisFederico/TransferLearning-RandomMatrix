@@ -1,5 +1,5 @@
 from keras.datasets import mnist
-from xgboost import XGBClassifier
+from sklearn.neural_network import MLPClassifier
 from evaluate import evaluate_model
 
 # Choose a dataset (here the MNIST dataset)
@@ -18,12 +18,12 @@ source_labels = [3, 4]
 target_labels = [8, 9]
 
 # Set your model and model name (needs a .predict method that provides classes labels prediction)
-model = XGBClassifier()
-model_name = 'XGB'
+model = MLPClassifier()
+model_name = 'MLP'
 
 # Choose a number of experiment (the more the better for uncertainty !)
 n_trials = 50
 evaluate_model(model, n_trials, dataset, source_labels, target_labels,
-                n_target=4, n_source_max=2000, points_per_trial=20,
+                n_target=4, n_source_max=2000, points_per_trial=10,
                 model_name=model_name, dataset_name=dataset_name,
                 save_pickles=False)
